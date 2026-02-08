@@ -1,4 +1,12 @@
 import java.util.*;
+/*
+-Thought Process: First Doubt if 2 consecutive 2's is it b or 2 a's we dont know so we consider all possibilities
+-The number of digits represents number of characters not how many times it been pressed;
+-Saved the mapping of digits in map with their respective index digit 
+-Thought about recursion at the beginning because problem can be broken down into smaller problems
+-Thought of the base condition i.e when all digits are processed completely
+
+*/
 
 public class LetterCombinationsOfAPhoneNumber17{
     static String[] map={"","","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
