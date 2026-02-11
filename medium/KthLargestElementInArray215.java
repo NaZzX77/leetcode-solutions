@@ -1,3 +1,8 @@
+/*
+First i used O(nlogn) sorting using merge sort then returned n-k th index because i sorted in ascending order then i thought for like 5 -10 of optimizing and it hit me if i use quick sort i dont need to 
+sort the whole array just the part of the array where the element index n-k lies so thought of that and recursed it with the appropriate condition which not going to lie did take me like about 5-10 minutes
+even after having the idea of what to do 
+*/
 import java.util.*;
 public class KthLargestElementInArray215 {
     public static void main(String[] args) {
