@@ -1,3 +1,7 @@
+/*
+First Started with the brute force solution then i realised it can be solved using n log n did both of thse first then i realised that this is a rearrangement 
+more than sorting so thought of 2 pointer solution and got the soltuion in O(n)
+*/
 import java.util.Arrays;
 import java.util.Scanner;
 
